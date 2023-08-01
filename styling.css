@@ -97,7 +97,10 @@ body {
     
     #controlsContainer {
         margin-bottom: 100px;
+        
     }
+
+    
     
     .control {
         color: rgb(18, 8, 8);
@@ -108,10 +111,13 @@ body {
         text-align: center;
         font-weight: bold;
         line-height: 70px;
-        padding: 20% 0;
+        padding: 5% 0;
         font-size: 6vw;
         cursor: pointer;
-        display: flex;
-        justify-content: space-between;
     }
+
+    #controlsContainer {
+        margin-right: 50px;
+    }
+
 }
