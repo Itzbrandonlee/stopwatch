@@ -102,11 +102,12 @@ body {
     .control {
         color: rgb(18, 8, 8);
         background-color:rgb(196, 254, 4);
-        height: 20vw;
-        width: 20vw;
+        height: 25vw;
+        width: 25vw;
         border-radius: 100%;
         text-align: center;
-        padding: 10% 10%;
+        line-height: 10px;
+        padding: 10% 30%;
         font-size: 3.5vw;
         cursor: pointer;
     }
