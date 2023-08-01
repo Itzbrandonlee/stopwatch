@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StopWatch App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="styling.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="header">
+            Stopwatch
+        </div>
+        <div id="lap">
+            <span id="lapminute">00</span>:<span id="lapsecond">00</span>:<span id="lapcentisecond">00</span>
+        </div>
+        <div id="time">
+            <span id="timeminute">00</span>:<span id="timesecond">00</span>:<span id="timecentisecond">00</span>
+        </div>
+
+        <div id="controlsContainer" class="row">
+            <div class="col-2 offset-4">
+                <div id="startButton" class="control">
+                    Start
+                </div>
+                <div id="stopButton" class="control">
+                    Stop
+                </div>
+                <div id="resumeButton" class="control">
+                    Resume
+                </div>
+            </div>
+            <div class="col-2">
+                <div id="lapButton" class="control">
+                    Lap
+                </div>
+                <div id="resetButton" class="control">
+                    Reset
+                </div>
+            </div>
+        </div>
+        <div id="laps">
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="stopwatch.js"></script>
+</body>
+
+</html>
