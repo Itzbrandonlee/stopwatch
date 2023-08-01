@@ -78,3 +78,36 @@ body {
     font-size: 2em;
     float: right;
 }
+
+@media (max-width: 480px){
+    #header{
+        text-align: center;
+        font-size: 7vw;
+    }
+    
+    #lap{
+        text-align: right;
+        font-size: 5vw;
+    }
+    
+    #time{
+        text-align: center;
+        font-size: 8vw;
+    }
+    
+    #controlsContainer {
+        margin-bottom: 100px;
+    }
+    
+    .control {
+        color: rgb(18, 8, 8);
+        background-color:rgb(196, 254, 4);
+        height: 15vw;
+        width: 15vw;
+        border-radius: 100%;
+        text-align: center;
+        padding: 20% 0;
+        font-size: 2.5vw;
+        cursor: pointer;
+    }
+}
