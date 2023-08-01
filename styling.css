@@ -34,7 +34,7 @@ body {
 }
 
 .control {
-    color: white;
+    color: black;
     background-color:rgb(196, 254, 4);
     height: 10vw;
     width: 10vw;
@@ -87,8 +87,7 @@ body {
     
     #lap{
         text-align: right;
-        font-size: 7vw;
-        padding-top:30%; 
+        font-size: 6vw; 
     }
     
     #time{
@@ -103,11 +102,11 @@ body {
     .control {
         color: rgb(18, 8, 8);
         background-color:rgb(196, 254, 4);
-        height: 25vw;
-        width: 25vw;
+        height: 20vw;
+        width: 20vw;
         border-radius: 100%;
         text-align: center;
-        padding: 10% 0;
+        padding: 10% 10%;
         font-size: 3.5vw;
         cursor: pointer;
     }
