@@ -82,17 +82,17 @@ body {
 @media (max-width: 480px){
     #header{
         text-align: center;
-        font-size: 7vw;
+        font-size: 10vw;
     }
     
     #lap{
         text-align: right;
-        font-size: 5vw;
+        font-size: 7vw;
     }
     
     #time{
         text-align: center;
-        font-size: 8vw;
+        font-size: 15vw;
     }
     
     #controlsContainer {
@@ -102,12 +102,12 @@ body {
     .control {
         color: rgb(18, 8, 8);
         background-color:rgb(196, 254, 4);
-        height: 15vw;
-        width: 15vw;
+        height: 25vw;
+        width: 25vw;
         border-radius: 100%;
         text-align: center;
-        padding: 20% 0;
-        font-size: 2.5vw;
+        padding: 40% 0;
+        font-size: 3.5vw;
         cursor: pointer;
     }
 }
