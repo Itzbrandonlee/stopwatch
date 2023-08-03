@@ -1,5 +1,7 @@
 <h1>Stop Watch</h1>
 
+##Live View - https://bzstopwatch.netlify.app
+
 ## Motivation - 
 
 Web Application created using an onlone software development course. The application was used to learn various front end programming languages and frameworks.
